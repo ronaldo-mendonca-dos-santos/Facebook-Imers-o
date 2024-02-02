@@ -1,0 +1,176 @@
+body{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif !important;
+}
+
+main {
+    background: #f0f2f5;
+}
+
+.main-container {
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 132px;
+    padding-top: 92px;
+    display: flex;
+}
+
+.blocoEsq{
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    float: left;
+    padding-top: 116px;
+}
+
+.blocoEsq img {
+    width: 320px;
+    padding: 0;
+    margin: -28px;
+    padding-bottom: 16px;
+}
+
+.blocoEsq h2 {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.blocoDir{
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.blocoDir .blocoDirContent {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blocoDirForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blocoDir .blocoDirContent .blocoDirForm input {
+    font-size: 17px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-bottom: 12px;
+}
+
+.blocoDir .blocoDirContent .blocoDirForm button {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    box-sizing: content-box;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.blocoDirEsSenha {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #dadde1;
+    width: 364px;
+}
+
+.blocoDirEsSenha a {
+    width: 100%;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blocoDirEsSenha a:hover {
+    text-decoration: underline;
+}
+
+.blocoDirCriarCont {
+    margin-top: 24px;
+}
+
+.blocoDirCriarCont button {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    font-weight: bold;
+    box-sizing: content-box;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+.blocoDirCriarCont button:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+.blocoDirTxt {
+    margin-top: 28px;
+    text-align: center;
+    width: 396px;
+}
+
+.blocoDirTxt span {
+    border-top: none;
+    color: #1c1e21;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    width: 100%;
+}
+
+.blocoDirTxt span a {
+    font-weight: 600;
+    color: #1c1e21;
+}
+
+.blocoDirTxt span a:hover {
+    text-decoration: underline;
+}
