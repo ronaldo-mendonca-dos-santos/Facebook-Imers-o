@@ -1,0 +1,97 @@
+@media screen and (max-width: 1015px) {
+
+    .main-container {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 4rem;
+    }
+
+    .blocoEsq {
+        width: 100%;
+        padding: 0;
+        padding-top: 3rem;
+    }
+
+    .blocoEsq h2 {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .blocoEsq h2 {
+        font-size: 1.4rem;
+    }
+
+    .main-container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .main-container {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .blocoEsq {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .blocoEsq h2 {
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+
+    .blocoDir {
+        width: 100%;
+    }
+
+    .blocoDir .blocoDirContent {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+    }
+
+    .blocoDirForm {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .blocoDirForm form {
+        width: 100%;
+    }
+
+    .blocoDir .blocoDirContent .blocoDirForm input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 25px 16px;
+    }
+
+    .blocoDir .blocoDirContent .blocoDirForm button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .blocoDirEsSenha {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .blocoDirTxt {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
